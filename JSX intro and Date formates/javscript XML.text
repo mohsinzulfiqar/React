@@ -1,0 +1,38 @@
+javscript XML
+
+which is not normaly suppported in the browser.
+
+JSX allows us to write HTML in JavaScript code.
+
+JSX makes it easier to write and add HTML in React.
+
+With JSX you can write expressions inside curly braces { }.
+const myelement = <h1>React is {5 + 5} times better with JSX</h1>
+
+This is JSX:
+			const myelement = <h1>I Love JSX!</h1>;
+			ReactDOM.render(myelement, document.getElementById('root'));
+
+This is not JSX:
+               	const myelement = React.createElement('h1', {}, 'I do not use JSX!');
+				ReactDOM.render(myelement, document.getElementById('root'));
+
+
+
+What is "JSX"?
+Ans: it,s a special, non-standrd syntax which is enabled in React projects
+
+Why is React all about "Components"?
+Ans: Every UI in the end up is made up of multiple building blocks(=components) hence it makes sense to think about user interfaces as "combinations of components"
+
+What does "declarative" mean?
+Ans: you define the desired outcome (e.g a target UI) and let the library (React) figure out the steps
+
+What is a "React Component"?
+Ans: it's a javascript function ehuch typically return HTML(JSX) code that should be displayed
+
+What does "component tree" mean?
+it means that you have a root node then has more components nested beneath it.
+
+How can you output dynamic data in React components (i.e. in the returned JSX code)?
+Ans: using single curly braces
